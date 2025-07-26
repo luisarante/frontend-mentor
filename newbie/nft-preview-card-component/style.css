@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    background-color: hsl(217, 54%, 11%);
+}
+
+main{
+    width: 330px;
+    height: fit-content;
+    padding: 20px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.image{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.price img{
+    width: 20px;
+    height: 20px;
+}
+
+.eth img{
+    width: 11px;
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.days{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #8bacd9;
+}
+
+.eth{
+    display: flex;
+    color: hsl(178, 100%, 50%);
+    align-items: center;
+    gap: 10px;
+}
+
+.perfil{
+    display: flex;
+    border-top: 1px solid hsl(213, 22%, 25%);
+}
+
+h2{
+    color: #fff;
+    font-weight: 600;
+}
+
+p{
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.name{
+    color: #fff;
+}
+.perfil{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+}
+.perfil img{
+    width: 35px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+
+.mg{
+    margin-top: 8px;
+}

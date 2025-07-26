@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main class="rating">
+    <div class="circle-top">
+      <img src="images/icon-star.svg" alt="Favorite">
+    </div>
+    <div class="main">
+      <h1>How did we go?</h1>
+      <p>Please let us know we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+      <div class="mark">
+        <button class="marker" data-note="1">1</button>
+        <button class="marker" data-note="2">2</button>
+        <button class="marker" data-note="3">3</button>
+        <button class="marker" data-note="4">4</button>
+        <button class="marker" data-note="5">5</button>
+      </div>
+      <div class="error">
+        <p>Please select a rating before submitting.</p>
+      </div>
+      <button class="btn">SUBMIT</button>
+    </div>
+  </main>
+
+  <main class="thankyou">
+    <div class="top">
+      <img src="images/illustration-thank-you.svg" alt="thank you">
+      <div class="a">
+        <p class="rate"></p>
+      </div>
+    </div>
+    <div class="bottom">
+      <h1>Thank you!</h1>
+      <p>We appreciate you taking the time to give a rating.<br> If you ever need more support, don't hesitate to <br> get in touch!</p>
+    </div>
+  </main>
+
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" alt="frontendmentor target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/luisarante" alt="github">luisarante</a>.
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>

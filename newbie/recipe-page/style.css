@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(30, 10%, 34%);
+}
+
+b{
+    font-weight: 700;
+    color: hsl(30, 10%, 34%);
+}
+
+body{
+    width: 100%;
+    padding-top: 100px;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f3e5d8;
+}
+
+h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main{
+    width: 40%;
+    height: 100%;
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+header img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.section{
+    border-bottom: solid 2px hsl(30, 18%, 87%);
+    padding-bottom: 25px;
+}
+
+section h1{
+    color: hsl(14, 45%, 36%);
+    padding-bottom: 25px;
+}
+
+.about h1{
+    margin-bottom: 25px;
+}
+
+.time{
+    background-color: #e9c8d577;
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.time h2, ul li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+li{
+    margin-left: 20px;
+    margin-top: 10px;
+    text-indent: 15px;
+}
+
+ol li::marker, .quantity, section ul li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+.nutritional{
+    margin-top: 25px;
+    width: 100%;
+    height: fit-content;
+    border-bottom: solid 2px hsl(30, 18%, 87%);
+    padding: 0px 0px 10px 30px;
+    display: flex;
+    align-items: center;
+}
+
+.title{
+    width: 50%;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 1300px) {
+    main{
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    main{
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    body{
+        padding-top: 0px;
+    }
+    main{
+        width: 100%;
+        border-radius: 0px;
+    }
+}
+
+
+
+

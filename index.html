@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafios Frontend Mentor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="bg-[#111827] text-gray-100">
+    <!-- Header -->
+    <header class="shadow px-4 md:px-24 py-6">
+      <h1 class="text-3xl font-bold text-indigo-600">
+        <a href="https://github.com/luisarante" class="hover:underline"
+          >Luis Arantes</a
+        >
+        — Desafios Frontend Mentor
+      </h1>
+      <p class="mt-2 text-gray-600">
+        Desafios resolvidos, separados por nível. 🚀
+      </p>
+    </header>
+
+    <!-- Navegação -->
+    <nav
+      class="p-6 flex gap-4 justify-center text-sm font-medium flex-wrap text-indigo-600"
+    >
+      <a href="#newbie" class="hover:underline">Newbie</a>
+      <a href="#junior" class="hover:underline">Junior</a>
+      <a href="#intermediate" class="hover:underline">Intermediate</a>
+      <a href="#advanced" class="hover:underline">Advanced</a>
+      <a href="#guru" class="hover:underline">Guru</a>
+    </nav>
+
+    <!-- Destaques -->
+    <section class="px-4 md:px-24 py-6">
+      <h2 class="text-xl font-semibold text-amber-300">💡 Destaques</h2>
+      <div class="mt-4 grid md:grid-cols-2 gap-4">
+        <div
+          class="p-4 rounded-lg bg-gray-800 text-gray-100 shadow hover:shadow-lg transition"
+        >
+          <img
+            src="./Newbie/qr-code/preview.png"
+            alt="QR Code Preview"
+            class="rounded mb-3 border border-gray-700"
+          />
+
+          <h3 class="font-bold text-indigo-400 text-xl">🔗 QR Code</h3>
+          <p class="text-sm text-gray-400 mt-1">
+            Desafio simples e responsivo — ideal pra iniciantes.
+          </p>
+
+          <ul class="text-sm mt-2 space-y-1">
+            <li><strong>📅 Data de conclusão:</strong> 10 de Março de 2024</li>
+            <li><strong>🛠️ Tecnologias:</strong> HTML, CSS, Tailwind</li>
+            <li>
+              <strong>📚 Aprendizado:</strong> Layout com Flexbox e
+              responsividade
+            </li>
+          </ul>
+
+          <div class="mt-3 flex flex-wrap gap-3 text-sm">
+            <a
+              href="./Newbie/qr-code/index.html"
+              class="text-indigo-300 hover:underline"
+              >👁️ Ver desafio</a
+            >
+            <a
+              href="https://github.com/luisarante/frontend-mentor/tree/main/Newbie/qr-code"
+              class="text-indigo-300 hover:underline"
+              >📁 Ver repositório</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seções por nível -->
+    <main class="px-4 md:px-24 py-6">
+      <section id="newbie">
+        <div class="flex gap-2 items-center">
+          <h2 class="text-lg font-bold text-indigo-500">🍼 Newbie</h2>
+          <i class="fa-solid cursor-pointer fa-angle-down"></i>
+        </div>
+        <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4"></div>
+      </section>
+
+      <section id="junior" class="mt-12">
+        <div class="flex gap-2 items-center">
+          <h2 class="text-lg font-bold text-indigo-500">🧒 Junior</h2>
+          <i class="fa-solid cursor-pointer fa-angle-down"></i>
+        </div>
+        <div
+          class="grid sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4"
+        ></div>
+      </section>
+
+      <section id="intermediate" class="mt-12">
+        <div class="flex gap-2 items-center">
+          <h2 class="text-lg font-bold text-indigo-500">🛠️ Intermediate</h2>
+          <i class="fa-solid cursor-pointer fa-angle-down"></i>
+        </div>
+        <div
+          class="grid sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4"
+        
+        ></div>
+      </section>
+
+      <section id="advanced" class="mt-12">
+        <div class="flex gap-2 items-center">
+          <h2 class="text-lg font-bold text-indigo-500">⚡ Advanced</h2>
+          <i class="fa-solid cursor-pointer fa-angle-down"></i>
+        </div>
+        <div
+          class="grid sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4"
+        
+        ></div>
+      </section>
+
+      <section id="guru" class="mt-12">
+        <div class="flex gap-2 items-center">
+          <h2 class="text-lg font-bold text-indigo-500">🧙‍♂️ Guru</h2>
+          <i class="fa-solid cursor-pointer fa-angle-down"></i>
+        </div>
+        <div
+          class="grid sm:grid-cols-2 md:grid-cols-3 gap-4 mt-4"
+        
+        ></div>
+      </section>
+    </main>
+    <!-- Rodapé -->
+    <footer class="shadow mt-12 p-4 text-center text-sm text-gray-500">
+      <p>
+        Feito por Luis Fernando Arantes — <i class="fa-brands fa-github"></i>
+        <a
+          href="https://github.com/luisarante"
+          class="text-indigo-600 hover:underline"
+          >GitHub</a
+        >
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
