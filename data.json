@@ -103,7 +103,7 @@
     "data": "26 de julho de 2025",
     "tecnologias": ["HTML", "CSS, JS, TAILWINDCSS"],
     "aprendizado": "Manipulação e atualização do DOM, puxar informações de um json utilizando fetch e modularização de projeto",
-    "preview": "./images/product-list-whit-cart.png",
+    "preview": "./images/product-list-with-cart-main.png",
     "demoLink": "./junior/product-list-with-cart-main/index.html",
     "repositorio": "https://github.com/luisarante/frontend-mentor/tree/main/junior/product-list-with-cart-main"
   }
