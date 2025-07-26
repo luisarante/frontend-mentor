@@ -3,88 +3,108 @@
     "titulo": "Recipe page",
     "descricao": "Desafio simples focado em semantica básica HTML.",
     "nivel": "newbie",
+    "destaque": false,
     "data": "29 de agosto de 2024",
     "tecnologias": ["HTML", "CSS"],
     "aprendizado": "Tags semânticas e estruturação com HTML",
     "preview": "./images/recipe-page.png",
     "demoLink": "./newbie/recipe-page/index.html",
-    "repositorio": "https://github.com/luisarante/frontend-mentor/newbie/recipe-page"
+    "repositorio": "https://github.com/luisarante/frontend-mentor/tree/main/newbie/recipe-page"
   },
   {
     "titulo": "Social links profile",
     "descricao": "Desafio simples e responsivo — ideal pra iniciantes.",
     "nivel": "newbie",
+    "destaque": false,
     "data": "30 de agosto de 2024",
     "tecnologias": ["HTML", "CSS"],
     "aprendizado": "Pseudo-classes e estruturação de links",
     "preview": "./images/social-links-profile.png",
     "demoLink": "./newbie/social-links-profile/index.html",
-    "repositorio": "https://github.com/luisarante/frontend-mentor/newbie/social-links-profile"
+    "repositorio": "https://github.com/luisarante/frontend-mentor/tree/main/newbie/social-links-profile"
   },
   {
     "titulo": "Blog preview card",
     "descricao": "Desafio simples e responsivo — ideal pra iniciantes.",
     "nivel": "newbie",
+    "destaque": false,
     "data": "30 de agosto de 2024",
     "tecnologias": ["HTML", "CSS"],
     "aprendizado": "Layout com Flexbox",
     "preview": "./images/blog-preview-card.png",
     "demoLink": "./newbie/blog-preview-card/index.html",
-    "repositorio": "https://github.com/luisarante/frontend-mentor/newbie/blog-preview-card"
+    "repositorio": "https://github.com/luisarante/frontend-mentor/tree/main/newbie/blog-preview-card"
   },
   {
     "titulo": "FAQ accordion",
     "descricao": "Desafio para trabalhar interação básica com JavaScript e animações.",
     "nivel": "newbie",
+    "destaque": false,
     "data": "03 de setembro de 2024",
     "tecnologias": ["HTML", "CSS", "JavaScript"],
     "aprendizado": "Manipulação de DOM e efeitos de toggle",
     "preview": "./images/faq-accordion.png",
     "demoLink": "./newbie/faq-accordion/index.html",
-    "repositorio": "https://github.com/luisarante/frontend-mentor/newbie/faq-accordion"
+    "repositorio": "https://github.com/luisarante/frontend-mentor/tree/main/newbie/faq-accordion"
   },
   {
     "titulo": "Results summary component",
     "descricao": "Componente visual para apresentar pontuação com layout dinâmico.",
     "nivel": "newbie",
+    "destaque": false,
     "data": "03 de setembro de 2024",
     "tecnologias": ["HTML", "CSS"],
     "aprendizado": "Design responsivo e organização com grid e flex",
     "preview": "./images/results-summary-component.png",
     "demoLink": "./newbie/results-summary-component/index.html",
-    "repositorio": "https://github.com/luisarante/frontend-mentor/newbie/results-summary-component"
+    "repositorio": "https://github.com/luisarante/frontend-mentor/tree/main/newbie/results-summary-component"
   },
   {
     "titulo": "Interactive rating component",
     "descricao": "Componente interativo de avaliação com feedback instantâneo.",
     "nivel": "newbie",
+    "destaque": false,
     "data": "04 de setembro de 2024",
     "tecnologias": ["HTML", "CSS", "JavaScript"],
     "aprendizado": "Eventos, lógica de estados e uso de classes dinâmicas",
     "preview": "./images/interactive-rating-component.png",
     "demoLink": "./newbie/interactive-rating-component/index.html",
-    "repositorio": "https://github.com/luisarante/frontend-mentor-component/newbie/interactive-rating-component"
+    "repositorio": "https://github.com/luisarante/frontend-mentor/tree/main-component/newbie/interactive-rating-component"
   },
   {
     "titulo": "QR code component",
     "descricao": "Component simples para treinar layout e centralização.",
     "nivel": "newbie",
+    "destaque": false,
     "data": "05 de setembro de 2024",
     "tecnologias": ["HTML", "CSS"],
     "aprendizado": "Centralização com Flexbox e responsividade com Media Queries",
     "preview": "./images/qr-code-component.png",
     "demoLink": "./newbie/qr-code-component/index.html",
-    "repositorio": "https://github.com/luisarante/frontend-mentor/newbie/qr-code-component"
+    "repositorio": "https://github.com/luisarante/frontend-mentor/tree/main/newbie/qr-code-component"
   },
   {
     "titulo": "NFT preview card component",
     "descricao": "Desafio para estilizar um card com ícone de hover e informações.",
     "nivel": "newbie",
+    "destaque": false,
     "data": "05 de setembro de 2024",
     "tecnologias": ["HTML", "CSS"],
-    "aprendizado": "Hover effects, tipografia, layout com grid",
+    "aprendizado": "Tipografia, layout flex-box",
     "preview": "./images/nft-preview-card-component.png",
     "demoLink": "./newbie/nft-preview-card-component/index.html",
-    "repositorio": "https://github.com/luisarante/frontend-mentor/newbie/nft-preview-card-component"
+    "repositorio": "https://github.com/luisarante/frontend-mentor/tree/main/newbie/nft-preview-card-component"
+  },
+  {
+    "titulo": "Product list with cart",
+    "descricao": "Listar produtos e criar um carrinho funcional com JavaScript Vanilla.",
+    "nivel": "junior",
+    "destaque": true,
+    "data": "26 de julho de 2025",
+    "tecnologias": ["HTML", "CSS, JS, TAILWINDCSS"],
+    "aprendizado": "Manipulação e atualização do DOM, puxar informações de um json utilizando fetch e modularização de projeto",
+    "preview": "./images/product-list-whit-cart.png",
+    "demoLink": "./junior/product-list-with-cart-main/index.html",
+    "repositorio": "https://github.com/luisarante/frontend-mentor/tree/main/junior/product-list-with-cart-main"
   }
 ]

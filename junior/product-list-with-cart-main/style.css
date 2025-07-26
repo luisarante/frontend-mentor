@@ -1,0 +1,79 @@
+@font-face {
+  font-family: 'RedHatTextRegular';
+  src: url('./assets/fonts/static/RedHatText-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RedHatTextSemiBold';
+  src: url('./assets/fonts/static/RedHatText-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'RedHatTextBold';
+  src: url('./assets/fonts/static/RedHatText-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root{
+    --Red: #c73a0fff;
+    --Green: #1ea475ff;
+    --Rose-50: #fcf9f7ff;
+    --Rose-100: #f4edebff;
+    --Rose-300: #c9aea6ff;
+    --Rose-400: #ad8985ff;
+    --Rose-500: #87635aff;
+    --Rose-900: #260f08ff;
+}
+
+body{
+    font-family: 'RedHatTextRegular', sans-serif;
+    background-color: #f4edebff;
+}
+
+.f-red{
+    color: var(--Red);
+}
+
+.f-green{
+    color: var(--Green);
+}
+
+.rose-50{
+    color: var(--Rose-50);
+}
+.rose-100{
+    color: var(--Rose-100);
+}
+.rose-300{
+    color: var(--Rose-300);
+}
+.rose-400{
+    color: var(--Rose-400);
+}
+.rose-500{
+    color: var(--Rose-500);
+}
+.rose-900{
+    color: var(--Rose-900);
+}
+
+.f-bold{
+    font-family: 'RedHatText-Bold', sans-serif;
+}
+
+.f-semibold{
+    font-family: 'RedHatText-SemiBold', sans-serif;
+}
+
+.no-spinner::-webkit-outer-spin-button,
+.no-spinner::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.no-spinner {
+  -moz-appearance: textfield;
+}

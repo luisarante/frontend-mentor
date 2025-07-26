@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>luisarante | Product list with cart</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+   <main class="flex p-4 md:p-18 justify-center gap-y-12 flex-col md:flex-row">
+      <div class="flex flex-col w-full">
+        <h1 class="rose-900 text-4xl f-bold font-extrabold mb-8">Desserts</h1>
+        <div class="flex flex-wrap gap-8 justify-center md:justify-start" id="listing">
+        </div>
+      </div>
+      <div class="max-w-xl md:max-w-md bg-white rounded-xl sticky top-18 h-fit w-full p-4 md:p-6">
+        <h2 class="f-red text-2xl f-bold font-bold">Your Cart (<span id="cartQuantity">0</span>)</h2>
+        <div class="text-center flex flex-col items-center gap-4 mt-6" id="emptyCart">
+          <img src="assets/images/illustration-empty-cart.svg" alt="Empty cart illustration">
+          <p class="rose-500 font-semibold text-sm mb-4">Your added items will appear here</p>
+        </div>
+        <div>
+          <div id="cart"></div>
+          <div class="mt-6 flex-col" id="confirmContainer" style="display: none;">
+            <div class="flex justify-between items-center">
+              <span class="rose-900">Order total</span>
+              <span class="text-2xl rose-900 f-bold font-bold" id="total"></span>
+            </div>
+            <div class="py-4 w-full flex items-center justify-center rose-500 gap-2 text-sm bg-[#f4edebff] rounded-xl mt-6">
+              <img src="assets/images/icon-carbon-neutral.svg" alt="Carbon neutral">
+              <p>This is a <span class="font-bold f-bold">carbon-neutral</span> delivery</p>
+            </div>
+            <button id="confirmOrderBtn" class="mt-6 cursor-pointer rounded-full w-full py-4 text-white bg-[#c73a0fff] hover:bg-[#942d0e] duration-200 transition">Confirm Order</button>
+          </div>
+        </div>
+      </div>
+      <div id="orderModal" class="fixed inset-0 bg-black/70 flex items-center justify-center z-50 hidden">
+        <div class="bg-white rounded-xl p-8 max-w-md w-full shadow-xl">
+          <img src="assets/images/icon-order-confirmed.svg" class="w-9 mb-5" alt="">
+          <h2 class="text-3xl font-black f-bold rose-900 mb-2">Order Confirmed</h2>
+          <p class="text-xs mb-6 rose-900">We hope you enjoy your food!</p>
+          <div id="confirmList">
+            
+          </div>
+          <button id="closeModalBtn" class="bg-[#c73a0fff] hover:bg-[#942d0e] cursor-pointer duration-200 text-sm transition w-full text-white py-3 rounded-full">
+            Start New Order
+          </button>
+        </div>
+      </div>
+   </main>
+   <script src="js/index.js" type="module"></script>
+</body>
+</html>
